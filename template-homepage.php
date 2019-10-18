@@ -58,7 +58,7 @@ get_header(); ?>
 					</div>
 
 					<div class="col-xs-12 col-md-6 info-iso-container">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis excepturi sint sed, commodi minima iure expedita voluptatum illo tempora dicta debitis quisquam sapiente dolorem mollitia. Deleniti commodi cum est aliquid.</p>
+						<p>Contamos con la certificación ISO 9001 que avala la calidad de nuestros procesos y servicios, lo cual nos permite desempeñarnos con calidad de clase mundial.</p>
 					</div>
 				</div>
 

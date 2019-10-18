@@ -53,8 +53,14 @@
 							<li><a href="https://www.facebook.com/Rocket-Automation-Systems-1627478324238229/" target="_blank"><span class="icon-fb azul-02"></span> Rocket Automation Systems</a></li>
 							<li><a href="tel:013926880121" target="_blank"><span class="icon-phone azul-02"></span> 01 (392) 6880 121</a></li>
 							<li><a href="https://api.whatsapp.com/send?phone=523921004015" target="_blank"><span class="icon-whatsapp azul-02"></span> (392) 1004 015</a></li>
-							<li><span class="icon-pin azul-02"></span> Chaconia #116 Jardines del Rosario, Ocotlán Jalisco. MX</li>
+							<li><span class="icon-pin azul-02"></span> Guatemala 141, Jardines del Rosario, C.P. 47849, Ocotlán, Jalisco. MX</li>
 						</ul>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-12 col-md-12">
+						<p class="blue text-center">Desarrollado por <a href="https://blueterrier.mx?ref=rocketGDL" target="_blank">Blue Terrier Studio</a></p>
 					</div>
 				</div>
 			</div>
