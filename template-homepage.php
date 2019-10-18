@@ -48,17 +48,17 @@ get_header(); ?>
 				</div>
 				
 
-				<div class="row">
+				<div class="row m-bottom-40">
 					<div class="col-xs-12 col-sm-12">
 						<h2>SOMOS UNA EMPRESA CERTIFICADA</h2>
 					</div>
 
 					<div class="col-xs-12 col-md-6 logo-iso-container">
-						<span class="icon-homme-logo-iso"></span>
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/esr.png" alt="Empresa socialmente responsable">
 					</div>
 
-					<div class="col-xs-12 col-md-6 info-iso-container">
-						<p>Contamos con la certificación ISO 9001 que avala la calidad de nuestros procesos y servicios, lo cual nos permite desempeñarnos con calidad de clase mundial.</p>
+					<div class="col-xs-12 col-md-6 info-iso-container text-justify">
+						<p>Rocket fue reconocida como una empresa con Responsabilidad Social Empresarial, gracias a la participación de todos sus colaboradores y a su interés a la mejora continua, realizando actividades sustentables para el desarrollo ambiental y empresarial del país, gracias al Centro Mexicano para la Filantropía, A.C. (Cemefi) y la Alianza por la Responsabilidad Social Empresarial (AliaRSE),por el Distintivo ESR® 2019 otorgado, tras haber cumplido satisfactoriamente con los estándares establecidos en los ámbitos de la responsabilidad social empresarial.</p>
 					</div>
 				</div>
 
