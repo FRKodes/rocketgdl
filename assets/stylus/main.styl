@@ -486,6 +486,31 @@ h2
 					text-transform uppercase
 nav.storefront-product-pagination
 	display none
+
+.form-group.error
+	.form-control
+		border-color red
+	textarea
+		border-color red
+.sent_mail_alert
+	background rgba(azul-02, .95)
+	color white
+	text-align center
+	padding 30px 20px
+	position absolute
+	bottom 120px
+	left 0
+	display none
+@media screen and (min-width: 612px)
+	form
+		overflow hidden
+		position relative
+	.sent_mail_alert
+		padding 40px 100px
+		position absolute
+		bottom 120px
+		left unset
+		width 100%
 @media screen and (min-width: 768px)
 	.post-type-archive-product
 		#secondary
@@ -693,6 +718,9 @@ nav.storefront-product-pagination
 		.woocommerce-Tabs-panel--reviews
 			width 55%
 			margin-top -30px
+	.sent_mail_alert
+		padding 40px 200px
+		bottom 120px
 @media screen and (min-width: 1200px)
 	#masthead
 		.col-full:first-of-type
@@ -727,6 +755,8 @@ nav.storefront-product-pagination
 	.marcas-carousel
 		.slick-arrow
 			top -20%
+	#contactForm
+		margin-bottom 0
 	.form-container
 		.left
 			width 45%
@@ -740,6 +770,9 @@ nav.storefront-product-pagination
 			.send-btn
 				background azul-02
 				color white
+	.sent_mail_alert
+		padding 40px
+		position absolute
 	.site-footer
 		background-size 140px
 		background-position center 45px

@@ -51,22 +51,23 @@
 				<div class="left"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo-header-rocket-gdl.svg" alt=""></div>
 				<div class="right">
 					<h2 class="gris-01">MÁNDANOS UN MENSAJE</h2>
-					<form action="/sendmail">
+					<form action="/sendmail" id="contactForm" method="post">
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Nombre*">
+							<input type="text" name="nombre" class="form-control" placeholder="Nombre*" data-validate="required">
 						</div>
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Teléfono / Celular*">
+							<input type="text" name="telefono" class="form-control" placeholder="Teléfono / Celular*" data-validate="required">
 						</div>
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Email*">
+							<input type="text" name="email" class="form-control" placeholder="Email*" data-validate="required|email">
 						</div>
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Comentario*">
+							<input type="text" name="comentario" class="form-control" placeholder="Comentario">
 						</div>
 						<div class="form-group text-right">
 							<input type="submit" class="btn btn-primary send-btn" value="ENVIAR MENSAJE">
 						</div>
+						<div class="sent_mail_alert">¡Gracias! <br><br>Tu correo se ha enviado con éxito, nos pondremos en contacto contigo a la brevedad.</div>
 					</form>
 				</div>
 				
